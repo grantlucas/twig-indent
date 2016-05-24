@@ -45,6 +45,7 @@ call <SID>TwigIndentPush('if')
 call <SID>TwigIndentPush('elseif')
 call <SID>TwigIndentPush('else')
 call <SID>TwigIndentPush('spaceless')
+call <SID>TwigIndentPush('embed')
 
 let s:cpo_save = &cpo
 set cpo-=C
